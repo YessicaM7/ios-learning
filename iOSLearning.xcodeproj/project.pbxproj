@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9C379601EC0892600CD1C6D /* NoteResumeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C3795F1EC0892600CD1C6D /* NoteResumeTableViewCell.m */; };
+		D9C379621EC0894B00CD1C6D /* NoteResumeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9C379611EC0894B00CD1C6D /* NoteResumeTableViewCell.xib */; };
+		D9CE5EF11EBFB115005C4818 /* notes.json in Resources */ = {isa = PBXBuildFile; fileRef = D9CE5EF01EBFB115005C4818 /* notes.json */; };
+		D9CE5EF41EBFB454005C4818 /* DetailNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CE5EF31EBFB454005C4818 /* DetailNoteViewController.m */; };
 		D9F10FDE1EAF07CB00DA9EDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F10FDD1EAF07CB00DA9EDB /* main.m */; };
 		D9F10FE11EAF07CB00DA9EDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F10FE01EAF07CB00DA9EDB /* AppDelegate.m */; };
 		D9F10FE41EAF07CB00DA9EDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F10FE31EAF07CB00DA9EDB /* ViewController.m */; };
@@ -15,6 +19,8 @@
 		D9F10FEC1EAF07CB00DA9EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F10FEA1EAF07CB00DA9EDB /* LaunchScreen.storyboard */; };
 		D9F10FF71EAF07CB00DA9EDB /* iOSLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F10FF61EAF07CB00DA9EDB /* iOSLearningTests.m */; };
 		D9F110021EAF07CB00DA9EDB /* iOSLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F110011EAF07CB00DA9EDB /* iOSLearningUITests.m */; };
+		D9F110121EAF100600DA9EDB /* NotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F110111EAF100600DA9EDB /* NotesTableViewController.m */; };
+		D9F110151EAF110800DA9EDB /* CategoryNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F110141EAF110800DA9EDB /* CategoryNotesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9C3795E1EC0892600CD1C6D /* NoteResumeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteResumeTableViewCell.h; sourceTree = "<group>"; };
+		D9C3795F1EC0892600CD1C6D /* NoteResumeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteResumeTableViewCell.m; sourceTree = "<group>"; };
+		D9C379611EC0894B00CD1C6D /* NoteResumeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoteResumeTableViewCell.xib; sourceTree = "<group>"; };
+		D9CE5EF01EBFB115005C4818 /* notes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notes.json; sourceTree = "<group>"; };
+		D9CE5EF21EBFB454005C4818 /* DetailNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNoteViewController.h; sourceTree = "<group>"; };
+		D9CE5EF31EBFB454005C4818 /* DetailNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNoteViewController.m; sourceTree = "<group>"; };
 		D9F10FD91EAF07CB00DA9EDB /* iOSLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F10FDD1EAF07CB00DA9EDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9F10FDF1EAF07CB00DA9EDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,10 @@
 		D9F10FFD1EAF07CB00DA9EDB /* iOSLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F110011EAF07CB00DA9EDB /* iOSLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLearningUITests.m; sourceTree = "<group>"; };
 		D9F110031EAF07CB00DA9EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F110101EAF100600DA9EDB /* NotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesTableViewController.h; sourceTree = "<group>"; };
+		D9F110111EAF100600DA9EDB /* NotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesTableViewController.m; sourceTree = "<group>"; };
+		D9F110131EAF110800DA9EDB /* CategoryNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryNotesViewController.h; sourceTree = "<group>"; };
+		D9F110141EAF110800DA9EDB /* CategoryNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryNotesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9CE5EF51EBFC725005C4818 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9C3795E1EC0892600CD1C6D /* NoteResumeTableViewCell.h */,
+				D9C3795F1EC0892600CD1C6D /* NoteResumeTableViewCell.m */,
+				D9C379611EC0894B00CD1C6D /* NoteResumeTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		D9F10FD01EAF07CB00DA9EDB = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +127,10 @@
 		D9F10FDB1EAF07CB00DA9EDB /* iOSLearning */ = {
 			isa = PBXGroup;
 			children = (
+				D9CE5EF51EBFC725005C4818 /* Views */,
+				D9F1100F1EAF0FAD00DA9EDB /* ViewControllers */,
 				D9F10FDF1EAF07CB00DA9EDB /* AppDelegate.h */,
 				D9F10FE01EAF07CB00DA9EDB /* AppDelegate.m */,
-				D9F10FE21EAF07CB00DA9EDB /* ViewController.h */,
-				D9F10FE31EAF07CB00DA9EDB /* ViewController.m */,
 				D9F10FE51EAF07CB00DA9EDB /* Main.storyboard */,
 				D9F10FE81EAF07CB00DA9EDB /* Assets.xcassets */,
 				D9F10FEA1EAF07CB00DA9EDB /* LaunchScreen.storyboard */,
@@ -118,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				D9F10FDD1EAF07CB00DA9EDB /* main.m */,
+				D9CE5EF01EBFB115005C4818 /* notes.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +165,21 @@
 				D9F110031EAF07CB00DA9EDB /* Info.plist */,
 			);
 			path = iOSLearningUITests;
+			sourceTree = "<group>";
+		};
+		D9F1100F1EAF0FAD00DA9EDB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D9F10FE21EAF07CB00DA9EDB /* ViewController.h */,
+				D9CE5EF21EBFB454005C4818 /* DetailNoteViewController.h */,
+				D9CE5EF31EBFB454005C4818 /* DetailNoteViewController.m */,
+				D9F10FE31EAF07CB00DA9EDB /* ViewController.m */,
+				D9F110101EAF100600DA9EDB /* NotesTableViewController.h */,
+				D9F110111EAF100600DA9EDB /* NotesTableViewController.m */,
+				D9F110131EAF110800DA9EDB /* CategoryNotesViewController.h */,
+				D9F110141EAF110800DA9EDB /* CategoryNotesViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +291,8 @@
 				D9F10FEC1EAF07CB00DA9EDB /* LaunchScreen.storyboard in Resources */,
 				D9F10FE91EAF07CB00DA9EDB /* Assets.xcassets in Resources */,
 				D9F10FE71EAF07CB00DA9EDB /* Main.storyboard in Resources */,
+				D9C379621EC0894B00CD1C6D /* NoteResumeTableViewCell.xib in Resources */,
+				D9CE5EF11EBFB115005C4818 /* notes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +318,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F10FE41EAF07CB00DA9EDB /* ViewController.m in Sources */,
+				D9F110121EAF100600DA9EDB /* NotesTableViewController.m in Sources */,
 				D9F10FE11EAF07CB00DA9EDB /* AppDelegate.m in Sources */,
+				D9C379601EC0892600CD1C6D /* NoteResumeTableViewCell.m in Sources */,
 				D9F10FDE1EAF07CB00DA9EDB /* main.m in Sources */,
+				D9CE5EF41EBFB454005C4818 /* DetailNoteViewController.m in Sources */,
+				D9F110151EAF110800DA9EDB /* CategoryNotesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +555,7 @@
 				D9F110081EAF07CB00DA9EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9F110091EAF07CB00DA9EDB /* Build configuration list for PBXNativeTarget "iOSLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +564,7 @@
 				D9F1100B1EAF07CB00DA9EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9F1100C1EAF07CB00DA9EDB /* Build configuration list for PBXNativeTarget "iOSLearningUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +573,7 @@
 				D9F1100E1EAF07CB00DA9EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
